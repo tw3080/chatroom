@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chatroom</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Chatroom box -->
+    <div class="chatroom-container clearfix">
+        <!-- Messages appear here -->
+        <div id="messages" class="messages-container"></div>
+        <!-- List of online users -->
+        <div id="user-list" class="users-container">
+            users online:<br />
+        </div>
+        <!-- Message input field -->
+        <input id="message-input" class="input-container" type="text" />
+        <button id="send-btn" class="send-btn">Send</button>
+    </div>
+
+    <script src="//code.jquery.com/jquery-2.1.0.js"></script>
+    <script src="main.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+</body>
+
+</html>

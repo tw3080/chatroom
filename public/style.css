@@ -1,0 +1,35 @@
+.chatroom-container {
+    border: 1px solid black;
+    margin: 10rem auto;
+    width: 30rem;
+}
+
+.clearfix:after {
+    content: "";
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+
+.messages-container {
+    float: left;
+    height: 15rem;
+    width: 75%;
+}
+
+.users-container {
+    float: left;
+    height: 15rem;
+    width: 25%;
+}
+
+.input-container {
+    box-sizing: border-box;
+    float: left;
+    width: 75%;
+}
+
+.send-btn {
+    float: left;
+    width: 25%;
+}
